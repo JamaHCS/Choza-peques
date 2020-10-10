@@ -16,3 +16,7 @@ $('#modal-container').on('shown.bs.modal', function () {
 // window.onload = function () {
 //   $('#modal-container').modal('show');
 // };
+
+if (window.innerHeight > window.innerWidth) {
+  alert('Please use Landscape!');
+}
