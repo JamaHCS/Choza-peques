@@ -18,5 +18,5 @@ $('#modal-container').on('shown.bs.modal', function () {
 // };
 
 if (window.innerHeight > window.innerWidth) {
-  alert('Please use Landscape!');
+  alert('Por favor, gira tu teleforno');
 }
