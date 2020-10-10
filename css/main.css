@@ -3,6 +3,7 @@
   width: 100%;
   background: transparent;
   overflow: hidden;
+  background: S;
 }
 .main-container:before {
   content: '';

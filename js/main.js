@@ -13,10 +13,6 @@ $('#modal-container').on('shown.bs.modal', function () {
   $('#modal').trigger('focus');
 });
 
-// window.onload = function () {
-//   $('#modal-container').modal('show');
-// };
-
 if (window.innerHeight > window.innerWidth) {
-  alert('Por favor, gira tu teleforno');
+  alert('Por favor, activa la rotación y gira tu telefono.');
 }
