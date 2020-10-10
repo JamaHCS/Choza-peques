@@ -23,3 +23,60 @@
 .container-fluid {
   padding: 0;
 }
+
+.back {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+  display: flex;
+}
+
+.back img {
+  margin: 0 0.5rem;
+  transition: 500ms ease;
+}
+
+.back img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.back .img-back {
+  height: 10vw;
+}
+
+.back .home {
+  height: 6vw;
+}
+
+.no-back {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  margin-top: 0.5rem;
+  margin-right: 0.3rem;
+  display: flex;
+}
+
+.no-back img {
+  transition: 500ms ease;
+  transform: scaleX(-1);
+  margin: 0 0.5rem;
+}
+
+.no-back img:hover {
+  transform: scaleX(-1.1) scaleY(1.1);
+  cursor: pointer;
+}
+
+.no-back .img-back {
+  height: 10vw;
+}
+
+.no-back .home {
+  height: 10vw;
+}
