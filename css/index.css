@@ -1,0 +1,19 @@
+.secondContainer {
+  background-image: url('../svg/background/home.svg');
+  justify-content: center;
+  align-items: center;
+}
+
+.badge-container {
+  height: fit-content;
+  width: fit-content;
+}
+
+.badge-container img {
+  height: 15vh;
+  transition: 500ms ease;
+}
+
+.badge-container img:hover {
+  transform: scale(1.1);
+}

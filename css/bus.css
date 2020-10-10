@@ -1,0 +1,5 @@
+.secondContainer {
+  background-image: url('../svg/background/bus.svg');
+  justify-content: center;
+  align-items: center;
+}

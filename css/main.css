@@ -1,0 +1,25 @@
+.main-container {
+  position: relative;
+  width: 100%;
+  background: transparent;
+  overflow: hidden;
+}
+.main-container:before {
+  content: '';
+  display: block;
+  padding-top: 49%;
+}
+
+.secondContainer {
+  /* border: 2px black solid; */
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+}
+
+.container-fluid {
+  padding: 0;
+}
