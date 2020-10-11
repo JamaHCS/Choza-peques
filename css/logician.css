@@ -4,18 +4,45 @@
   align-items: center; */
 }
 
-#door {
-  height: 74%;
+#book {
+  height: 6%;
   position: absolute;
-  top: 14.5%;
-  left: 5%;
-  transform-origin: 0% 50%;
-  transition: 500ms ease;
-  /* margin-top: 3.5rem; */
+  left: 33%;
+  top: 57.5%;
   cursor: pointer;
+  transition: 500ms ease;
+  padding: 0 2rem 2rem 0;
+  z-index: 20;
 }
 
-#door:hover {
-  transform-origin: 0% 50%;
-  transform: rotateY(50deg);
+#book:hover {
+  top: 55%;
+}
+
+#board {
+  height: 28%;
+  position: absolute;
+  left: 34%;
+  top: 36%;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+
+#board:hover {
+  transform: scale(1.05);
+  top: 35%;
+}
+
+#tv {
+  height: 16%;
+  position: absolute;
+  left: 11%;
+  top: 29%;
+  cursor: pointer;
+  transition: 500ms ease;
+  padding: 0 2rem 2rem 0;
+}
+
+#tv:hover {
+  filter: brightness(2);
 }
