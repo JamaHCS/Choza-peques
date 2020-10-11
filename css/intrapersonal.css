@@ -1,21 +1,50 @@
 .secondContainer {
   background-image: url('../svg/background/magic-classroom.svg');
-  /* justify-content: flex-start;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
 }
 
-#door {
-  height: 74%;
+#book {
+  height: 20%;
   position: absolute;
-  top: 14.5%;
-  left: 5%;
-  transform-origin: 0% 50%;
-  transition: 500ms ease;
-  /* margin-top: 3.5rem; */
+  left: 28%;
+  top: 57%;
   cursor: pointer;
+  transition: 500ms ease;
+  /* padding: 0 2rem 2rem 0; */
+  /* z-index: 20; */
 }
 
-#door:hover {
-  transform-origin: 0% 50%;
-  transform: rotateY(50deg);
+#book:hover {
+  top: 54%;
+}
+
+#smoke {
+  height: 25%;
+  position: absolute;
+  right: 30%;
+  top: 48.5%;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+
+#smoke:hover {
+  filter: brightness(3);
+  opacity: 0.6;
+  transform: scale(1.05);
+  top: 47.5%;
+}
+
+#magic {
+  height: 10%;
+  position: absolute;
+  right: 6.5%;
+  top: 60%;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+
+#magic:hover {
+  transform: scale(1.1);
+  top: 58.5%;
 }

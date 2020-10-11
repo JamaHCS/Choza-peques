@@ -1,21 +1,55 @@
 .secondContainer {
   background-image: url('../svg/background/teather.svg');
-  /* justify-content: flex-start;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
 }
 
-#door {
-  height: 74%;
+#crowd {
+  /* height: 50%; */
+  margin-left: 0%;
+  width: 115%;
   position: absolute;
-  top: 14.5%;
-  left: 5%;
-  transform-origin: 0% 50%;
-  transition: 500ms ease;
-  /* margin-top: 3.5rem; */
+  /* left: 28%; */
+  bottom: 0%;
+  margin-bottom: -15%;
   cursor: pointer;
+  transition: 500ms ease;
+  z-index: 20;
+  /* padding: 0 2rem 2rem 0; */
+  /* z-index: 20; */
 }
 
-#door:hover {
-  transform-origin: 0% 50%;
-  transform: rotateY(50deg);
+#crowd:hover {
+  filter: brightness(2);
+  transform: scale(1.02);
+}
+
+#skull {
+  position: absolute;
+  height: 10%;
+  top: 42%;
+  left: 44.5%;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+
+#skull:hover {
+  transform: rotate(-10deg) scale(1.1);
+}
+
+#singer {
+  position: absolute;
+  height: 55%;
+  bottom: 31.5%;
+  right: 27.5%;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+
+#singer:hover {
+  transform: scale(1.1);
+}
+
+.secondContainer .title-container {
+  top: 5%;
 }
