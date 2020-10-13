@@ -3,3 +3,10 @@
   justify-content: center;
   align-items: center;
 }
+
+#bitmoji {
+  position: absolute;
+  height: 120%;
+  top: 40%;
+  left: 15%;
+}
