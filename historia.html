@@ -11,12 +11,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/mex-1.css" />
-    <title>Historia de México - Choza de los pequeñines</title>
+    <link rel="stylesheet" href="./css/historia.css" />
+    <title>Historia - Choza de los pequeñines</title>
   </head>
 
-  <body>
-    <div class="main-container">
+  <body id="body">
+    <div class="main-container" id="container">
       <div class="back">
         <a
           href="./second-hall.html"
@@ -51,17 +51,29 @@
             class="home"
             data-toggle="tooltip"
             data-placement="left"
-            title="Busca con el maestro, el pizarrón o en el escritorio 👀"
+            title="Busca en el escudo, la mesa o el trono 👀"
           />
         </a>
       </div>
       <div class="secondContainer">
         <div class="title-container">
-          <h1>México despues de la consumación<br />de independencia (1821)</h1>
+          <h1>A&ntilde;o 1853 a A&ntilde;o 1858</h1>
         </div>
-        <img src="./svg/elements/board-mex.svg" alt="Pizarrón" id="board" />
-        <img src="./svg/elements/escritorio.svg" alt="escritorio" id="table" />
-        <img src="./svg/elements/maestro.svg" alt="Maestro" id="teacher" />
+        <img
+          src="./svg/elements/escudo-history.svg"
+          alt="Escudo medieval"
+          id="escudo"
+        />
+        <img
+          src="./svg/elements/mesa-history.svg"
+          alt="Mesa medieval"
+          id="mesa"
+        />
+        <img
+          src="./svg/elements/trono-history.svg"
+          alt="Trono medieval"
+          id="trono"
+        />
       </div>
     </div>
 
@@ -87,14 +99,13 @@
           <div class="modal-body">
             <h3>Links de apoyo:</h3>
               <ul>
-                <li><a target="_blank" href="https://buscapalabras.com.ar/sopa-de-letras-de-consumacion-de-la-independencia-de-mexico.html">Texto</a></li>
-                <li><a target="_blank" href="https://es.educaplay.com/recursos-educativos/3396065-consumacion_de_la_indep.html">Juego</a></li>
-                <li><a target="_blank" href="https://buscapalabras.com.ar/sopa-de-letras-de-los-tres-poderes-del-gobierno.html">Juego</a></li>
-                <li><a target="_blank" href="https://www.jigsawplanet.com/?rc=play&pid=120d9395de86&pieces=24">Juego</a></li>
-                <li><a target="_blank" href="https://www.youtube.com/watch?v=BoUGV-lWyTg">Vidéo</a></li>
+                <li><a target="_blank" href="https://es.wikipedia.org/wiki/Venta_de_La_Mesilla#:~:text=La%20Venta%20de%20La%20Mesilla,tratado%20firmado%20entre%20el%20presidente">Información</a></li>
+                <li><a target="_blank" href="https://www.quia.com/jg/68715list.html">Juego</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/watch?v=G6CqAa0qEvs">Video</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/watch?v=Mom7Vh0BWxc">Video</a></li>
               </ul>
             <p>
-              Busca con el maestro, el pizarrón o en el escritorio 👀
+              Busca en el escudo, la mesa o el trono 👀
             </p>
           </div>
         </div>
@@ -103,7 +114,7 @@
 
     <div
       class="modal fade"
-      id="table-m"
+      id="modal1"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
@@ -121,34 +132,22 @@
             </button>
           </div>
           <div class="modal-body">
-           
-            <h6 class="text-muted">
-              Febrero 1, 1823
-            </h6>
-            <p>
-              Antonio López de Santa Ana fue proclamado el plan de casa mata y posteriormente Vicente Guerrero, Nicolás Bravo y los insurgentes demandaron la creación de una república, un nuevo congreso y la renuncia de Iturbide.
-            </p>
-
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
-                src="https://www.youtube.com/embed/YwM0Wn0hc0s?controls=0"
-                allowfullscreen
-              ></iframe>
-            </div>
+            Y ¿Qu&eacute; pas&oacute; con el presidente que vendi&oacute; parte del territorio mexicano a Estados Unidos?
+            En Agosto 18 de 1855 el presidente Santa Anna abandona México definitivamente.<br>
+            Enseguida en 1857 se crea la constitucíón política de la república mexicana la cual hizo que las personas tuvieran libertad de expresarse, los ciudadanos ahora eran libres de portar armas y se eliminó la prisión por deudas civiles.
           </div>
         </div>
       </div>
     </div>
 
-        <div
+    <div
       class="modal fade"
-      id="board-m"
+      id="modal2"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <button
@@ -161,16 +160,10 @@
             </button>
           </div>
           <div class="modal-body">
-           
-            <h6 class="text-muted">
-              4 de octubre 1824
-            </h6>
-            <h4>Promulgación de la Constitución de 1824</h4>
-
             <div class="embed-responsive embed-responsive-16by9">
               <iframe
                 class="embed-responsive-item"
-                src="https://buscapalabras.com.ar/sopa-de-letras-de-la-constituci%C3%B3n-de-1824.html"
+                src="https://www.youtube.com/embed/qQIJv9MUXcw?autoplay=1&enablejsapi=1"
                 allowfullscreen
               ></iframe>
             </div>
@@ -181,12 +174,12 @@
 
     <div
       class="modal fade"
-      id="teacher-m"
+      id="modal3"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <button
@@ -199,32 +192,29 @@
             </button>
           </div>
           <div class="modal-body">
-           
-            <h6 class="text-muted">
-              27 de septiembre de 1821
-            </h6>
-            <h4>¿Cómo fue la consumación de independencia?</h4>
-
             <p>
-              La lucha por la independencia de México duró 11 años, al iniciar un 16 de septiembre de 1810 con el llamado del cura Miguel Hidalgo a levantarse en armas, gesto conocido mundialmente como el Grito de Dolores.
+              ¿Sabías que el presidente de México
+              en los años 1853 (Santa Anna) vendió la zona llamada
+              La mesilla a Estados Unidos?
+              Así es, Estados Unidos le compró a México esta parte de su territorio para poder construir un ferrocarril y así poder
+              transportar mercancía hacia otras partes!.
             </p>
-              <p>
-                
-            Tras una pelea intensa contra las tropas españolas, un 27 de septiembre de 1821, el Ejército Trigarante, bajo el mando de Iturbide entró a la Ciudad de México, en lo que se considera como la consumación de la Independencia.
-            </p>
-
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
-                src="https://www.youtube.com/embed/WDbOoczhI0k"
-                allowfullscreen
-              ></iframe>
-            </div>
           </div>
         </div>
       </div>
     </div>
 
+    <audio id="sonido_escudo" controls="controls" preload="auto" style="display: none;">
+      <source src="sound/escudo.mp3">
+    </audio>
+
+    <audio id="sonido_trono" controls="controls" preload="auto" style="display: none;">
+      <source src="sound/trono.mp3">
+    </audio>
+
+    <audio id="sonido_mesa" controls="controls" preload="auto" style="display: none;">
+      <source src="sound/mesa.mp3">
+    </audio>
 
     <div class="scripts">
       <script
@@ -243,7 +233,7 @@
         crossorigin="anonymous"
       ></script>
       <script src="./js/main.js"></script>
-      <script src="./js/mex-1.js"></script>
+      <script src="./js/historia.js"></script>
     </div>
   </body>
 </html>

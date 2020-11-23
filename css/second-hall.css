@@ -66,9 +66,3 @@
   transition: 500ms ease;
   transform-origin: 100% 50%;
 }
-
-#door-4:hover {
-  transform-origin: 100% 50%;
-  transform: rotateY(50deg);
-  /* left: 10%; */
-}

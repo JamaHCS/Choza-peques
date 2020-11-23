@@ -1,0 +1,54 @@
+.secondContainer {
+  background-image: url('../svg/background/history-classroom.svg');
+  justify-content: center;
+  align-items: center;
+}
+
+#escudo {
+  height: 22%;
+  position: absolute;
+  right: 23%;
+  top: 11%;
+  cursor: pointer;
+  transition: 500ms ease;
+  /* padding: 0 2rem 2rem 0; */
+  /* z-index: 20; */
+}
+
+#escudo:hover {
+  right: 25%;
+  filter: brightness(1.5);
+  top: 13%;
+}
+
+#mesa {
+  height: 15%;
+  position: absolute;
+  left: 23%;
+  bottom: 9%;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+
+#mesa:hover {
+  filter: brightness(1.5);
+  opacity: 0.6;
+  position: absolute;
+  bottom: 11%;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+
+#trono {
+  height: 50%;
+  position: absolute;
+  left: 10%;
+  bottom: 9%;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+
+#trono:hover {
+  transform: scale(1.1);
+  bottom: 11%;
+}

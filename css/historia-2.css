@@ -1,0 +1,54 @@
+.secondContainer {
+  background-image: url('../svg/background/history-2-classroom.svg');
+  justify-content: center;
+  align-items: center;
+}
+
+#cabeza {
+  height: 16%;
+  position: absolute;
+  left: 3%;
+  top: 22%;
+  cursor: pointer;
+  transition: 500ms ease;
+  /* padding: 0 2rem 2rem 0; */
+  /* z-index: 20; */
+}
+
+#cabeza:hover {
+  left: 5%;
+  filter: brightness(1.5);
+  top: 24%;
+}
+
+#mochila {
+  height: 15%;
+  position: absolute;
+  left: 53%;
+  bottom: 10%;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+
+#mochila:hover {
+  filter: brightness(1.5);
+  opacity: 0.6;
+  position: absolute;
+  bottom: 12%;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+
+#mapa {
+  height: 40%;
+  position: absolute;
+  left: 42%;
+  bottom: 30%;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+
+#mapa:hover {
+  transform: scale(1.1);
+  bottom: 28%;
+}
