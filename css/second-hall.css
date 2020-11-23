@@ -1,0 +1,74 @@
+.secondContainer {
+  background-image: url('../svg/background/second-hall.svg');
+  justify-content: center;
+  align-items: center;
+}
+
+#door-1 {
+  height: 62%;
+  position: absolute;
+  left: 3.2%;
+  top: 30%;
+  cursor: pointer;
+  transition: 500ms ease;
+  transform-origin: 0% 50%;
+}
+
+#door-1:hover {
+  transform-origin: 0% 50%;
+  transform: rotateY(50deg);
+}
+
+#door-2 {
+  height: 30%;
+  position: absolute;
+  left: 35.5%;
+  top: 43.5%;
+  /* right: ; */
+  /* bottom: ; */
+  cursor: pointer;
+  transition: 500ms ease;
+  transform-origin: 0% 50%;
+}
+
+#door-2:hover {
+  transform-origin: 0% 50%;
+  transform: rotateY(50deg);
+  /* left: 10%; */
+}
+
+#door-3 {
+  height: 23%;
+  position: absolute;
+  right: 39.5%;
+  top: 46%;
+  /* right: ; */
+  /* bottom: ; */
+  cursor: pointer;
+  transition: 500ms ease;
+  transform-origin: 100% 50%;
+}
+
+#door-3:hover {
+  transform-origin: 100% 50%;
+  transform: rotateY(50deg);
+  /* left: 10%; */
+}
+
+#door-4 {
+  height: 50%;
+  position: absolute;
+  right: 17%;
+  top: 33%;
+  /* right: ; */
+  /* bottom: ; */
+  cursor: pointer;
+  transition: 500ms ease;
+  transform-origin: 100% 50%;
+}
+
+#door-4:hover {
+  transform-origin: 100% 50%;
+  transform: rotateY(50deg);
+  /* left: 10%; */
+}

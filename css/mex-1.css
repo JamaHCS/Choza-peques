@@ -1,0 +1,47 @@
+.secondContainer {
+  background-image: url('../svg/background/mex-1.svg');
+  justify-content: center;
+  align-items: center;
+}
+
+#teacher {
+  height: 60%;
+  position: absolute;
+  right: 33%;
+  top: 30%;
+  cursor: pointer;
+  transition: 500ms ease;
+  /* padding: 0 2rem 2rem 0; */
+  z-index: 20;
+}
+
+#teacher:hover {
+  right: 30%;
+}
+
+#board {
+  height: 35%;
+  position: absolute;
+  left: 28%;
+  top: 24%;
+  cursor: pointer;
+  transition: 500ms ease;
+}
+
+#board:hover {
+  filter: sepia(1.1);
+}
+
+#table {
+  height: 50%;
+  position: absolute;
+  left: 11%;
+  top: 50%;
+  cursor: pointer;
+  transition: 500ms ease;
+  /* padding: 0 2rem 2rem 0; */
+}
+
+#table:hover {
+  transform: scale(1.1);
+}

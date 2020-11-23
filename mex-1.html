@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/mex-1.css" />
+    <title>Historia de México - Choza de los pequeñines</title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="back">
+        <a
+          href="./hallway-1.html"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="regresar"
+        >
+          <img
+            src="./svg/elements/arrow-back.svg"
+            alt="regresar"
+            class="img-back"
+          />
+        </a>
+        <a
+          data-toggle="tooltip"
+          data-placement="right"
+          title="Regresar al inicio"
+          onclick="validateComeback()"
+        >
+          <img
+            src="./svg/elements/admiration-symbols.svg"
+            alt="home"
+            class="home"
+          />
+        </a>
+      </div>
+      <div class="no-back">
+        <a id="modal" data-toggle="modal" data-target="#modal-container">
+          <img
+            src="./svg/elements/admiration-symbols.svg"
+            alt="home"
+            class="home"
+            data-toggle="tooltip"
+            data-placement="left"
+            title="Busca con el maestro, el pizarrón o en el escritorio 👀"
+          />
+        </a>
+      </div>
+      <div class="secondContainer">
+        <div class="title-container">
+          <h1>México despues de la consumación<br />de independencia (1821)</h1>
+        </div>
+        <img src="./svg/elements/board-mex.svg" alt="Pizarrón" id="board" />
+        <img src="./svg/elements/escritorio.svg" alt="escritorio" id="table" />
+        <img src="./svg/elements/maestro.svg" alt="Maestro" id="teacher" />
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal-container"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h3>Links de apoyo:</h3>
+              <ul>
+                <li><a target="_blank" href="https://buscapalabras.com.ar/sopa-de-letras-de-consumacion-de-la-independencia-de-mexico.html">Texto</a></li>
+                <li><a target="_blank" href="https://es.educaplay.com/recursos-educativos/3396065-consumacion_de_la_indep.html">Juego</a></li>
+                <li><a target="_blank" href="https://buscapalabras.com.ar/sopa-de-letras-de-los-tres-poderes-del-gobierno.html">Juego</a></li>
+                <li><a target="_blank" href="https://www.jigsawplanet.com/?rc=play&pid=120d9395de86&pieces=24">Juego</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/watch?v=BoUGV-lWyTg">Vidéo</a></li>
+              </ul>
+            <p>
+              Busca con el maestro, el pizarrón o en el escritorio 👀
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+           
+            <h6 class="text-muted">
+              Febrero 1, 1823
+            </h6>
+            <p>
+              Antonio López de Santa Ana fue proclamado el plan de casa mata y posteriormente Vicente Guerrero, Nicolás Bravo y los insurgentes demandaron la creación de una república, un nuevo congreso y la renuncia de Iturbide.
+            </p>
+
+            <div class="embed-responsive embed-responsive-16by9">
+              
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/YwM0Wn0hc0s?controls=0"
+                allowfullscreen
+              ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal1"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+            <h6 class="text-muted">
+              Febrero 1, 1823
+            </h6>
+            <p>
+              Antonio López de Santa Ana fue proclamado el plan de casa mata y posteriormente Vicente Guerrero, Nicolás Bravo y los insurgentes demandaron la creación de una república, un nuevo congreso y la renuncia de Iturbide.
+            </p>
+
+            <div class="embed-responsive embed-responsive-16by9">
+              
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/YwM0Wn0hc0s?controls=0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal3"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h6 class="text-muted">
+              27 de septiembre de 1821
+            </h6>
+            <h4>
+              ¿Cómo fue la consumación de independencia?
+            </h4>
+            <p>
+
+              La lucha por la independencia de México duró 11 años, al iniciar un 16 de septiembre de 1810 con el llamado del cura Miguel Hidalgo a levantarse en armas, gesto conocido mundialmente como el Grito de Dolores.
+            </p>
+              <p>
+                
+              Tras una pelea intensa contra las tropas españolas, un 27 de septiembre de 1821, el Ejército Trigarante, bajo el mando de Iturbide entró a la Ciudad de México, en lo que se considera como la consumación de la Independencia.
+            </p>
+            <a href="https://www.youtube.com/watch?v=eSMC7uEuCmk">Video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scripts">
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"
+      ></script>
+      <script src="./js/main.js"></script>
+      <script src="./js/mex-1.js"></script>
+    </div>
+  </body>
+</html>
