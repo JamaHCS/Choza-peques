@@ -1,5 +1,5 @@
 .secondContainer {
-  background-image: url('../svg/background/schoolhall-1.svg');
+  background-image: url('../svg/background/hall-final.svg');
   /* justify-content: flex-start;
   align-items: center; */
 }
@@ -70,4 +70,20 @@ a:hover #door-3 {
 a:hover #door-4 {
   transform-origin: 100% 50%;
   transform: rotateY(50deg);
+}
+
+#escaleras {
+  height: 23%;
+  position: absolute;
+  top: 28%;
+  right: 42.5%;
+  transition: 500ms ease;
+  /* margin-top: 3.5rem; */
+  cursor: pointer;
+  padding-left: 3rem;
+}
+
+a:hover #escaleras {
+  filter: brightness(1.5);
+  transform: scale(1.1);
 }
